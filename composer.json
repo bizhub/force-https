@@ -1,6 +1,6 @@
 {
     "name": "bizhub/force-https",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Laravel middleware for forcing https protocol",
     "license": "MIT",
     "homepage": "https://bizhub.co.nz",
@@ -13,7 +13,7 @@
     "keywords": ["https", "laravel"],
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "~5.4"
     },
     "autoload": {
         "psr-4": { "Bizhub\\ForceHttps\\": "src/" }
