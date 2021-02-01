@@ -1,6 +1,6 @@
 {
     "name": "bizhub/force-https",
-    "version": "0.2",
+    "version": "0.3.1",
     "description": "Laravel middleware for forcing https protocol",
     "license": "MIT",
     "homepage": "https://bizhub.co.nz",
