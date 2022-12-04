@@ -1,6 +1,6 @@
 # Force https middleware for Laravel
 
-WIP Testing
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bizhub/force-https.svg?style=flat-square)](https://packagist.org/packages/bizhub/inertia-query-filter) ![Packagist Downloads](https://img.shields.io/packagist/dt/bizhub/force-https?style=flat-square)
 
 ## Installation
 

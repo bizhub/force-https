@@ -3,19 +3,14 @@
 namespace Bizhub\ForceHttps\Middleware;
 
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class ForceHttps
 {
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     * @return mixed
-     */
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next)
     {
-        if ( ! $request->secure() && env('APP_ENV') === 'production') {
+        if ( ! $request->secure() && App::isProduction()) {
             return redirect()->secure($request->getRequestUri());
         }
 
